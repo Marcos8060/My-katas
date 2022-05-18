@@ -7,3 +7,6 @@ else:
     print('your number is odd')
 
 print(userInput)
+
+
+# returning first digits if a number depending on user input
