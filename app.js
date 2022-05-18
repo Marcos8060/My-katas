@@ -5,6 +5,7 @@ let newArr = [a[0],a[4]]
 console.log(newArr);
 
 
+// return a users number to start with 0 or +254 depending on the first digits of the number
 form.addEventListener('submit',function(e){
     e.preventDefault()
     const userText = document.getElementById('number').value
