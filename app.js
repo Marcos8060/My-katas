@@ -33,3 +33,31 @@
 //         alert('we are sorry')
 //     }
 // })
+
+
+// find the largest number out of three form input values
+// form.addEventListener('submit',function(e){
+//     e.preventDefault()
+
+//     const one = document.getElementById('first').value
+//     const two = document.getElementById('second').value
+//     const three = document.getElementById('third').value
+
+//     var first = ''
+//     var second = ''
+//     var third = ''
+
+//     first = one
+//     second = two
+//     third = three
+
+//     const result = document.getElementById('result')
+//     result.innerHTML += `
+//      <p>${first}</p>
+//      <p>${second}</p>
+//      <p>${third}</p>
+//     `
+
+//        let LargestNumber = Math.max(first,second,third)
+//         console.log(LargestNumber);
+// })
